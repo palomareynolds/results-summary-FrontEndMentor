@@ -1,0 +1,176 @@
+body {
+    margin: 20px 350px;
+
+}
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 11px;
+
+}
+
+
+
+.container {
+    display: flex;
+    margin: 40px 30px;
+    /* box-shadow: 0px 0px 10px rgb(163, 163, 163); */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    width: 400px;
+
+    
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) ) ;
+    max-width: 200px;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.first-column {
+    padding: 10px;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 14px; 
+    text-align: center;
+
+}
+
+.score {
+    font-size: 35px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+
+}
+
+.of-100 {
+    margin: 0px;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.score-circle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.text {
+    padding-left: 20px ;
+    padding-right: 20px;
+    font-weight: lighter;
+    font-size: 11px;
+    
+}
+
+.great {
+    font-size: 18px;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+
+}
+
+/* -----------SECOND COLUMN --------- */
+
+.second-column {
+    border-radius: 0px 20px 20px 0px;
+    background-color: hsl(0, 0%, 100%);
+    width: 210px;  
+}
+
+.container2 {
+    margin: 40px 30px;
+
+}
+
+.summary {
+    color: hsl(224, 30%, 27%);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.inside-rows {
+    margin: auto 3px;
+}
+
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rows {
+    margin: 7px auto;
+    border-radius: 7px;
+    padding: 2px 7px;
+    height: 30px;
+}
+
+.button {
+    background-color: hsl(224, 30%, 27%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 30px;
+    border-radius: 40px;
+    margin: 20px 0px;
+    
+}
+
+.button {
+    font-size: x-small;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.number {
+    color:hsl(224, 30%, 27%);
+    font-size: xx-small;
+
+}
+
+span {
+    color:hsl(224, 30%, 27%, 0.7);
+    font-size: xx-small;
+
+}
+
+.reaction {
+    color:hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.1);
+
+
+}
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.1);
+
+
+}
+.visual {
+    color:hsl(234, 85%, 45%);
+    background-color:hsl(234, 85%, 45%, 0.1);
+
+}
+
+img {
+    width: 10px;
+}
+
